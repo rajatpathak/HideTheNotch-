@@ -1,0 +1,75 @@
+# OSX
+#
+.DS_Store
+
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
+
+# Android/IntelliJ
+#
+build/
+.idea
+.gradle
+local.properties
+*.iml
+
+# node.js
+#
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# BUCK
+buck-out/
+\.buckd/
+*.keystore
+
+# fastlane
+**/fastlane/report.xml
+**/fastlane/Preview.html
+**/fastlane/screenshots/*/*.png
+**/fastlane/screenshots/README.txt
+**/fastlane/screenshots/screenshots.html
+**/fastlane/background.png
+**/fastlane/metadata
+**/fastlane/Appfile
+**/fastlane/Deliverfile
+**/fastlane/README.md
+**/Preview.html
+
+# custom
+assets/wallpapers
+assets/iOS
+assets/Android
+assets/website
+website/*
+
+# sensible files
+*.zip
+*.p12
+*.cer
+*.certSigningRequest
+*.mobileprovision
+*/sentry.properties
+src/sentry.endpoint.js
+
+# heavy files
+ios/HideTheNotch/Images.xcassets/LaunchImage.launchimage/*
+ios/HideTheNotch/Images.xcassets/AppIcon.appiconset/*
